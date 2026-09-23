@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">mr_element — Build useful things</title>
+  <desc id="desc">Dark blue banner with a cyan orbit illustration and a personal introduction.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1221"/>
+      <stop offset="1" stop-color="#17243a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#78f2db"/>
+      <stop offset="1" stop-color="#66a9ff"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity=".045" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="360" rx="26"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#background)"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+    <circle cx="1055" cy="40" r="290" fill="#4ebbd4" fill-opacity=".05"/>
+    <circle cx="1060" cy="70" r="206" fill="none" stroke="url(#accent)" stroke-opacity=".32" stroke-width="1.5"/>
+    <circle cx="1060" cy="70" r="143" fill="none" stroke="url(#accent)" stroke-opacity=".45" stroke-width="1.5"/>
+    <circle cx="1060" cy="70" r="80" fill="none" stroke="url(#accent)" stroke-opacity=".62" stroke-width="1.5"/>
+    <circle cx="870" cy="149" r="8" fill="#78f2db"/>
+    <circle cx="1060" cy="70" r="11" fill="url(#accent)"/>
+    <path d="M 755 266 C 877 240, 967 293, 1202 230" fill="none" stroke="url(#accent)" stroke-opacity=".48" stroke-width="2"/>
+    <path d="M 755 286 C 882 260, 977 315, 1202 250" fill="none" stroke="#78f2db" stroke-opacity=".13" stroke-width="1"/>
+    <g fill="#78f2db" fill-opacity=".68">
+      <rect x="890" y="280" width="5" height="5" rx="1"/><rect x="911" y="280" width="5" height="5" rx="1"/>
+      <rect x="932" y="280" width="5" height="5" rx="1"/><rect x="911" y="301" width="5" height="5" rx="1"/>
+    </g>
+    <rect x="52" y="51" width="10" height="10" rx="2" fill="url(#accent)"/>
+    <text x="75" y="61" fill="#93a9c7" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="3">YUANSUI486 / GITHUB</text>
+    <text x="52" y="151" fill="#f2f7ff" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Build useful things.</text>
+    <text x="54" y="194" fill="#a8bad2" font-family="Segoe UI, Arial, sans-serif" font-size="23">Desktop apps  ·  CLI tools  ·  practical systems</text>
+    <rect x="54" y="232" width="343" height="1.5" fill="url(#accent)"/>
+    <text x="54" y="285" fill="#d6e5f6" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600">mr_element</text>
+    <text x="54" y="314" fill="#8198b5" font-family="Segoe UI, Arial, sans-serif" font-size="17">Rust · Tauri · TypeScript · Python</text>
+  </g>
+</svg>
